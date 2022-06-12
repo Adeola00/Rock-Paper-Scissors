@@ -6,10 +6,7 @@ while True:
     possible_options = ['R','P','S']
 
     while True:
-        try:
-            user_choice = input("Pick an option: ").upper()
-        except ValueError:
-            continue
+        user_choice = input("Pick an option: ").upper()
         if user_choice not in possible_options:
             print("Invalid option, try again")
             continue
