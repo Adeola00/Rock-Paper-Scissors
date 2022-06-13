@@ -37,6 +37,7 @@ while True:
             print(f'{username} wins!')
         else:
             print(f'{username} wins!')
+    break
 print(f"Thanks {username} for playing")
     
    
