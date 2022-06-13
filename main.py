@@ -37,10 +37,6 @@ while True:
             print(f'{username} wins!')
         else:
             print(f'{username} wins!')
+print(f"Thanks {username} for playing")
     
-    play_again = input("Play again? (y/n): ")
-    if play_again.lower() == "y":
-        continue
-    elif play_again.lower() == "n":
-        print("Thanks for playing!")
-        break
+   
