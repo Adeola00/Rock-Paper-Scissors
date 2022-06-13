@@ -6,6 +6,7 @@ while True:
     possible_options = ['R','P','S']
 
     while True:
+
         user_choice = input("Pick an option: ").upper()
         if user_choice not in possible_options:
             print("Invalid option, try again")
@@ -37,6 +38,10 @@ while True:
             print(f'{username} wins!')
         else:
             print(f'{username} wins!')
-    break
-print(f"Thanks for playing, {username}! ")
     
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() == "y":
+        continue
+    else:
+        print("Thanks for playing!")
+        break
