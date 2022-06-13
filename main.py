@@ -38,6 +38,5 @@ while True:
         else:
             print(f'{username} wins!')
     break
-print(f"Thanks {username} for playing")
+print(f"Thanks for playing, {username}! ")
     
-   
